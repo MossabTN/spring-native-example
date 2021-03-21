@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: native spring
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/native
+    username: native
+    password: native
+    hikari:
+      poolName: Hikari
+      auto-commit: false
+  jpa:
+    hibernate:
+      ddl-auto: update

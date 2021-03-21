@@ -1,0 +1,11 @@
+version: '2'
+services:
+  postgresql:
+    image: postgres:12.3
+    environment:
+      - POSTGRES_DB=native
+      - POSTGRES_USER=native
+      - POSTGRES_PASSWORD=native
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
