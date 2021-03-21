@@ -23,3 +23,5 @@ mvn spring-boot:build-image
 ```bash
 docker run -p 8080:8080 spring-native-example:1.0.0
 ```
+
+![alt text](sc.jpg)
