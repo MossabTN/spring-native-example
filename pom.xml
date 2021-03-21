@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>io.maxilog</groupId>
-	<artifactId>native</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>spring-native-example</artifactId>
+	<version>1.0.0</version>
 	<name>native</name>
 	<description>Demo project for Native Spring Boot</description>
 	<properties>
@@ -41,8 +41,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
